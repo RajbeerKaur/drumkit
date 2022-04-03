@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 50vw;
+    width: 100vw;
+    background-image: url(background.jpg);
+    
+}
+.keys{
+    width: 90%;
+    height: 15%;
+    
+    position: relative;
+    display: flex;
+    top: 50%;
+    left: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.key{
+    border-radius: 0.5rem;
+    width:7% ;
+    height:80% ;
+    border:0.4rem solid rgb(17, 16, 16);
+    text-align: center;
+    color: white;
+    transition: all 0.10s ease;
+    background-color: rgb(18, 18, 18);
+}
+kbd{
+    display: block;
+    font-size: 4rem;
+}
+span{
+    font-size: 1.5rem;
+    text-transform: uppercase ;
+    color: rgb(227, 242, 10);
+    text-align: center;
+  
+}
+.playing{
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 1rem yellow;
+}
